@@ -1,0 +1,30 @@
+.cover {
+    width: 1024px;
+    height: 640px;
+    background-image: url("../../images/cover-trains.jpg");
+    margin: 0 auto;
+}
+
+.cover:hover {
+    opacity: .3;
+}
+
+.cover__title {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 72px;
+    line-height: 76px;
+    text-align: center;
+    margin-top: 195px;
+}
+
+.cover__subtitle {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+    text-align: center;
+    margin-top: 32px;
+}

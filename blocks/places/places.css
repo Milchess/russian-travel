@@ -1,0 +1,57 @@
+.places {
+    margin: 92px 48px 92px;
+    gap: 80px
+}
+
+.place {
+    margin: 0 auto 80px;
+}
+
+.place:last-of-type {
+    margin-bottom: 0;
+}
+
+.place__title {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 72px;
+    line-height: 76px;
+}
+
+.place__image {
+    width: 440px;
+    height: 440px;
+}
+
+.place__url-heading {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 12px;
+    letter-spacing: 0.2em;
+    color: #AAAAAA;
+}
+
+.place__link {
+    text-decoration: underline;
+    color: white;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+}
+
+.place__link:hover {
+    opacity: .8;
+}
+
+.place__paragraph {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 163%;
+}

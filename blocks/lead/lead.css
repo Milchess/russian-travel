@@ -1,0 +1,29 @@
+.lead {
+    margin: 0 48px 92px;
+}
+
+.lead__title {
+    text-align: center;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 96px;
+    line-height: 100px;
+    margin: 0 auto;
+}
+
+.lead__subtitle {
+    text-align: center;
+    margin: 32px auto 56px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 36px;
+}
+
+.lead__image {
+    width: 928px;
+    height: 580px;
+    margin: 0 48px 0;
+}

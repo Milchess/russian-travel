@@ -1,0 +1,15 @@
+.photo-grid {
+    display: grid;
+    grid-template-rows: repeat(4, 300px);
+    grid-auto-flow: column;
+    grid-auto-columns: 1fr;
+    gap: 14px;
+    margin: 0 auto;
+    width: 928px;
+    height: 942px;
+}
+
+.photo-grid__item {
+    width: 300px;
+    height: 225px;
+}
