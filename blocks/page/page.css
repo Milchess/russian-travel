@@ -1,7 +1,10 @@
 .page {
     background-color: #2A2C2F;
     max-width: 1280px;
-    max-height: 6875px;
+    min-height: 100vh;
     margin: 0 auto;
     color: white;
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
 }
