@@ -1,8 +1,9 @@
 .intro {
-    margin: 92px 286px 92px 48px;
+    margin: 92px 0 0;
 }
 
 .intro__title {
+    max-width: 690px;
     font-family: 'Inter';
     font-style: normal;
     font-weight: 900;
@@ -11,6 +12,7 @@
 }
 
 .intro__text {
+    max-width: 690px;
     margin: 40px 0 33px;
     font-family: 'Inter';
     font-style: normal;
@@ -20,12 +22,14 @@
 }
 
 .intro__list {
+    max-width: 690px;
     list-style: none;
     font-family: 'Inter';
     font-style: normal;
     font-weight: 700;
     font-size: 12px;
     line-height: 18px;
+    padding-left: 0;
 }
 
 .intro__list-number {

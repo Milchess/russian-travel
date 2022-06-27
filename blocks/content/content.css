@@ -2,10 +2,12 @@
     flex: 1;
 }
 
-.content__section {
-    width: 100%;
+.content__section_padding_s {
     padding: 0 48px;
-    box-sizing: border-box;
+}
+
+.content__section_padding_l {
+    padding: 0 148px;
 }
 
 .content__section_desktop_narrow {
