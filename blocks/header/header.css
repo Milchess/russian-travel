@@ -6,30 +6,8 @@
     max-width: 1280px;
 }
 
-.header__logo {
-    width: 176px;
-    height: 52px;
-}
-
-.header__lang-links {
-    display: flex;
-}
-
-.header__lang-link {
-    padding-right: 18px;
-    text-decoration: none;
-    color: white;
-    font-family: 'Inter';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 24px;
-    line-height: 28px;
-}
-
-.header__lang-link:last-of-type {
-    padding-right: 0;
-}
-
-.header__lang-link:hover {
-    text-decoration: underline;
+@media screen and (max-width: 320px) {
+    .header {
+        margin-top: 16px;
+    }
 }

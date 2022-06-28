@@ -2,16 +2,8 @@
     margin-top: 92px;
 }
 
-.photo-grid__item {
-    display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(284px, 1fr));
-    gap: 16px;
-    list-style: none;
-    object-fit: cover;
-    padding-left: 0;
-}
-
-.photo-grid__image {
-    width: 100%;
-    height: 100%;
+@media screen and (max-width: 320px) {
+    .photo-grid {
+        margin-top: 64px;
+    }
 }

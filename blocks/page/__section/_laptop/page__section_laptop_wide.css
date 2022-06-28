@@ -1,0 +1,5 @@
+@media screen and (max-width: 1024px) {
+    .page__section_laptop_wide {
+        padding: 0;
+    }
+}

@@ -1,0 +1,18 @@
+.place {
+    margin: 0 auto 80px;
+    display: flex;
+    max-width: 984px;
+}
+
+.place:last-of-type {
+    margin-bottom: 0;
+}
+
+@media screen and (max-width: 320px) {
+    .place {
+        margin-top: 50px;
+        width: 100%;
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+}

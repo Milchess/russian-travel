@@ -2,36 +2,27 @@
     margin: 92px 0 0;
 }
 
-.intro__title {
-    max-width: 690px;
-    font-family: 'Inter';
-    font-style: normal;
-    font-weight: 900;
-    font-size: 54px;
-    line-height: 58px;
+@media screen and (max-width: 1024px) {
+    .intro {
+        margin-top: 83px;
+    }
 }
 
-.intro__text {
-    max-width: 690px;
-    margin: 40px 0 33px;
-    font-family: 'Inter';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 163%;
+@media screen and (max-width: 768px) {
+    .intro {
+        margin-top: 90px;
+    }
 }
 
-.intro__list {
-    max-width: 690px;
-    list-style: none;
-    font-family: 'Inter';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 12px;
-    line-height: 18px;
-    padding-left: 0;
+@media screen and (max-width: 320px) {
+    .intro {
+        margin-top: 64px;
+    }
 }
 
-.intro__list-number {
-    font-weight: 400;
-}
+
+
+
+
+
+

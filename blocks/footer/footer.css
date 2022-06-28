@@ -5,32 +5,8 @@
     padding-bottom: 24px;
 }
 
-.footer__links {
-    display: flex;
-    align-items: center;
-    gap: 18px;
-
-}
-
-.footer__link {
-    font-family: 'Inter';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 18px;
-    color: white;
-    text-decoration: none;
-}
-
-.footer__link:hover {
-    opacity: .8;
-}
-
-.footer__copyright {
-    font-family: 'Inter';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 16px;
-    max-width: 186px;
+@media screen and (max-width: 320px) {
+    .footer {
+        flex-direction: column;
+    }
 }

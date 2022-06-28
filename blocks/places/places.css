@@ -3,68 +3,11 @@
     gap: 80px
 }
 
-.place {
-    margin: 0 auto 80px;
-    display: flex;
-}
-
-.place:last-of-type {
-    margin-bottom: 0;
-}
-
-.place__title {
-    font-family: 'Inter';
-    font-style: normal;
-    font-weight: 900;
-    font-size: 72px;
-    line-height: 76px;
-    padding-bottom: 48px;
-    margin: 0;
-    max-width: 460px;
-}
-
-.place__image {
-    width: 440px;
-    height: 440px;
-}
-
-.place__item {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    padding-left: 40px;
-}
-
-.place__url-heading {
-    max-width: 456px;
-    font-family: 'Inter';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 12px;
-    line-height: 12px;
-    letter-spacing: 0.2em;
-    color: #AAAAAA;
-}
-
-.place__link {
-    text-decoration: underline;
-    color: white;
-    font-family: 'Inter';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 18px;
-    line-height: 22px;
-}
-
-.place__link:hover {
-    opacity: .8;
-}
-
-.place__paragraph {
-    font-family: 'Inter';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 18px;
-    line-height: 163%;
-    max-width: 484px;
+@media screen and (max-width: 320px) {
+    .places {
+        max-width: 320px;
+        margin-top: 64px;
+        flex-direction: column;
+        padding-left: 0;
+    }
 }
