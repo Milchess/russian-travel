@@ -1,7 +1,11 @@
 .place {
     margin: 0 auto 80px;
-    display: flex;
-    max-width: 984px;
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(2, minmax(320px, 460px));
+    grid-template-rows: repeat(2, auto);
+    column-gap: 40px;
+    row-gap: 48px;
 }
 
 .place:last-of-type {

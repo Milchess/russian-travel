@@ -1,6 +1,7 @@
 .places {
     margin-top: 92px;
     gap: 80px;
+    max-width: 984px;
 }
 
 @media screen and (max-width: 320px) {
