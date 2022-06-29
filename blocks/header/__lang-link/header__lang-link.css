@@ -1,20 +1,16 @@
 .header__lang-link {
-    padding-right: 18px;
     text-decoration: none;
     color: white;
-    font-family: 'Inter';
+    font-family: 'Inter', serif;
     font-style: normal;
     font-weight: 400;
     font-size: 24px;
     line-height: 28px;
 }
 
-.header__lang-link:last-of-type {
-    padding-right: 0;
-}
-
 .header__lang-link:hover {
-    text-decoration: underline;
+    opacity: .8;
+    transition: opacity .3s ease;
 }
 
 @media screen and (max-width: 320px) {
