@@ -4,13 +4,13 @@
 
 @media screen and (max-width: 1024px) {
     .intro {
-        margin-top: 83px;
+        margin-top: 89px;
     }
 }
 
 @media screen and (max-width: 768px) {
     .intro {
-        margin-top: 90px;
+        margin-top: 86px;
     }
 }
 

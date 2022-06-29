@@ -9,6 +9,12 @@
     margin: 0;
 }
 
+@media screen and (max-width: 1024px) {
+    .intro__title {
+        padding-bottom: 40px;
+    }
+}
+
 @media screen and (max-width: 320px) {
     .intro__title {
         font-size: 32px;

@@ -6,8 +6,16 @@
     padding-bottom: 6px;
 }
 
+@media screen and (max-width: 768px) {
+    .footer {
+        padding-top: 71px;
+    }
+}
+
 @media screen and (max-width: 320px) {
     .footer {
         flex-direction: column;
+        align-items: flex-start;
+        padding-top: 39px;
     }
 }

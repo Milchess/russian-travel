@@ -8,3 +8,9 @@
     line-height: 26px;
     margin: 0;
 }
+
+@media screen and (max-width: 360px) {
+    .intro__text {
+        padding-bottom: 34px;
+    }
+}
