@@ -9,6 +9,12 @@
     margin: 0;
 }
 
+@media screen and (max-width: 768px) {
+    .intro__text {
+        padding-bottom: 35px;
+    }
+}
+
 @media screen and (max-width: 360px) {
     .intro__text {
         padding-bottom: 34px;
@@ -17,6 +23,6 @@
 
 @media screen and (max-width: 320px) {
     .intro__text {
-        padding-bottom: 31px;
+        padding-bottom: 35px;
     }
 }

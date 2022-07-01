@@ -2,6 +2,12 @@
     margin-top: 95px;
 }
 
+@media screen and (max-width: 1024px) {
+    .photo-grid {
+        margin-top: 90px;
+    }
+}
+
 @media screen and (max-width: 768px) {
     .photo-grid {
         margin-top: 89px;
