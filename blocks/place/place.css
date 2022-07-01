@@ -22,7 +22,7 @@
 @media screen and (max-width: 768px) {
     .place {
         row-gap: 44px;
-        margin-bottom: 76px;
+        margin-bottom: 74px;
         column-gap: 18px;
         grid-template-columns: repeat(2, minmax(320px, 440px));
     }
@@ -41,5 +41,11 @@
         grid-template-columns: minmax(320px, 1fr);
         row-gap: 31px;
         margin-bottom: 62px;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .place {
+        margin-bottom: 52px;
     }
 }
