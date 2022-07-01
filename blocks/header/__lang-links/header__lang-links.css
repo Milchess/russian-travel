@@ -3,4 +3,6 @@
     list-style: none;
     padding-left: 0;
     gap: 18px;
+    margin: 0;
+    padding-top: 18px;
 }
